@@ -5,14 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WEB1 - HTML</title>
+    <link rel="stylesheet" href="style.css">
+
   </head>
   <body>
     <h1><a href="index.html">WEB</a></h1>
+    <input id="night_day" type="button" value="Night" onclick="nightDayHandle(this);">
+    <div id="grid">
+      <div>
     <ol>
       <li><a href="1.html">HTML</a></li>
       <li><a href="2.html">CSS</a></li>
       <li><a href="3.html">JavaScript</a></li>
     </ol>
+  </div>
+  <div id="article">
     <h2>HTML</h2>
     <p>
       <iframe
@@ -34,6 +41,8 @@
       >
       첫번째~
     </p>
+  </div>
+  </div>
     <p>
         <div id="disqus_thread"></div>
         <script>
@@ -71,6 +80,7 @@
     </script>
     <!--End of Tawk.to Script-->
     </p>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="colors.js"></script>
   </body>
 </html>
